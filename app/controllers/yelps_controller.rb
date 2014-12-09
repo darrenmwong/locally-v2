@@ -1,5 +1,7 @@
 class YelpsController < ApplicationController
 
+before yelp_search
+
   def yelp_search
 
     if params[:restaurant] != nil
